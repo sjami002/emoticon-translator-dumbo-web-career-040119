@@ -13,9 +13,10 @@ end
 value
 end
 
-def get_japanese_emoticon("./lib/emoticons.yml", get_emoticon)
+def get_japanese_emoticon("./lib/emoticons.yml", english_emoticon)
   # code goes here
   library = load_library("./lib/emoticons.yml")
+  if library["get_emoticon"].include?()
 end
 
 def get_english_meaning
